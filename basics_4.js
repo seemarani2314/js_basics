@@ -1,24 +1,24 @@
 //Array is a collection of elements of homogenius nature
 
 var marks = Array(6) // lenght of the array is 6
-var marks  = new Array (20,43,63,79,90,89) // total elements are 6
+var marks = new Array(20, 43, 63, 79, 90, 89) // total elements are 6
 
 //create subarray from an array
-submarks = marks.slice(2,5) //starts at 2nd array and till 5th elements wants to slice
+submarks = marks.slice(2, 5) //starts at 2nd array and till 5th elements wants to slice
 console.log(submarks)
 console.log(marks)
 
-var marks = [20,43,63,79,90,89]    // how to declare and initialize
+var marks = [20, 43, 63, 79, 90, 89]    // how to declare and initialize
 marks[3] = 64  // how to assign new value to an array
 
-for(i=0;i<marks.length;i++){
-    console.log(marks[i]+5)
+for (i = 0; i < marks.length; i++) {
+    console.log(marks[i] + 5)
 } // how to retrieve all elements of an array
 
 //sum up all the elements of an array
 sum = 0
-for(j=0;j<marks.length;j++){
-    sum = sum+marks[j]
+for (j = 0; j < marks.length; j++) {
+    sum = sum + marks[j]
 }
 console.log(sum)
 

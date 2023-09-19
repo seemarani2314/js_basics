@@ -3,11 +3,11 @@
 const newPerson = require('./class_1')
 
 let person = {
-    firstName : 'Seema',
-    lastName : 'Rani',
-    age : 24,
-    fullName : function(){
-        console.log(this.firstName+this.lastName)
+    firstName: 'Seema',
+    lastName: 'Rani',
+    age: 24,
+    fullName: function () {
+        console.log(this.firstName + this.lastName)
     }
 }
 
@@ -37,9 +37,9 @@ console.log('firstName' in person)
 
 //print all items of the property in a loop
 //print all the values of the javascript objects
-for(let key in person){
+for (let key in person) {
     console.log(person[key])
-} 
+}
 
-let newperson = new newPerson("Chris ","Edward")
+let newperson = new newPerson("Chris ", "Edward")
 newperson.fullName()

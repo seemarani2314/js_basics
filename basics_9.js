@@ -3,12 +3,12 @@
 
 var greet = "Morning"
 
-if(1==1){
+if (1 == 1) {
    var greet = "Afternoon"
 }
 
-function a(){
+function a() {
    var greet = "Evening"
 }
 
-console.log (greet)
+console.log(greet)

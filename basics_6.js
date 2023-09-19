@@ -7,6 +7,6 @@ console.log(fruits.reverse())
 
 //Sorting numbers
 
-var numbers = [10,5,8,6,12,16,14]
-console.log(numbers.sort((a,b)=>a-b)) //sort the numbers
-console.log(numbers.sort((a,b)=>b-a)) // reverse the numbers
+var numbers = [10, 5, 8, 6, 12, 16, 14]
+console.log(numbers.sort((a, b) => a - b)) //sort the numbers
+console.log(numbers.sort((a, b) => b - a)) // reverse the numbers

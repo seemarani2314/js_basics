@@ -10,7 +10,7 @@ if (!flag) {
 
 //while loop
 let i = 0
-while(i<10){
+while (i < 10) {
     i++
     //console.log("I am inside the loop")
     console.log(i)
@@ -18,14 +18,13 @@ while(i<10){
 
 //do while loop
 do {
-i++
-} while(i>10)
-console.log(i)  
+    i++
+} while (i > 10)
+console.log(i)
 
 //while loop or do while loop is used in case we need to execute the loop based on some condition like true or false, for n number of loop we can use for loop 
 let required = true
-while (required)
-{
+while (required) {
     console.log(required)
     required = false
 }

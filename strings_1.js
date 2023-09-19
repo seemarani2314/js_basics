@@ -2,7 +2,7 @@
 //string - collection of characters
 let day = 'tuesday '
 console.log(day.length) //8
-let subDay = (day.slice(0,4)) //tues
+let subDay = (day.slice(0, 4)) //tues
 console.log(subDay)
 console.log(day[1]) //u
 
@@ -24,15 +24,15 @@ difference.toString() // to change back to String
 //How to concatenate two strings
 let newQuote = day + "is Funday and today is Sunday"
 console.log(newQuote)
-let findDay = newQuote.indexOf("day",5) // find second day so need to start with the incex 5
+let findDay = newQuote.indexOf("day", 5) // find second day so need to start with the incex 5
 console.log(findDay)
 
 //find number of occurence of "day" in a string
 
 let count = 0
 let val = newQuote.indexOf("day")
-while(val!==-1){
+while (val !== -1) {
     count++
-    val = newQuote.indexOf("day",val+1)
+    val = newQuote.indexOf("day", val + 1)
 }
-console.log("Occurence of word day in a string = "+ count)
+console.log("Occurence of word day in a string = " + count)
