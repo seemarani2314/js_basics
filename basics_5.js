@@ -5,7 +5,6 @@ var marks = [20, 43, 63, 79, 90, 89]
 let total = marks.reduce((sum, mark) => sum + mark, 0)
 console.log(total)
 
-
 // 2 print the even numbers from an array in a separate subarray
 var scores = [12, 13, 14, 16]
 let subarray = []
