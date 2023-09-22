@@ -1,5 +1,3 @@
-// Testing git update using Visual Studio Code
-
 //How to Print in javascript
 console.log("hello world")
 
