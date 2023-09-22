@@ -1,5 +1,5 @@
-//kexport this class in another class
-module.exports = class Person {
+//module export keyword will allow this class to export in another class
+class Person {
     age = 30
     get location(){
         return "Estonia"
@@ -20,7 +20,8 @@ let firstPerson = new Person("Archit","Shukla")
 console.log(firstPerson.age)
 console.log(firstPerson.location)
 firstPerson.fullName()
+
 let secondPerson = new Person("Seema","Rani")
 console.log(secondPerson.age)
 console.log(secondPerson.location)
-secondPerson.fullName() 
+secondPerson.fullName()
