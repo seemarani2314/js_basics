@@ -1,3 +1,4 @@
+
 // 1 - use reduce in accumulating calculations
 var marks = [20, 43, 63, 79, 90, 89]
 //reduce filter map
@@ -27,6 +28,8 @@ console.log(mappedArray)
 let summedArray = mappedArray.reduce((sum, mark) => sum + mark, 0)
 console.log(summedArray)
 
+
 //5 we can do chaining instead of writing this long length of code
-let sumValue = scores.filter(score => score % 2 == 0).map(score => score * 3).reduce((sum, mark) => sum + mark, 0)
+var scores = [20, 43, 63, 79, 90, 89]
+let sumValue = scores.filter(score => score % 2 == 0).map(score => score * 3).reduce((score, sum) => score + sum, 0)
 console.log(sumValue)
