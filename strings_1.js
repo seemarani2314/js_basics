@@ -1,3 +1,4 @@
+
 //array - collection of elements
 //string - collection of characters
 let day = 'tuesday '
@@ -27,12 +28,15 @@ console.log(newQuote)
 let findDay = newQuote.indexOf("day", 5) // find second day so need to start with the incex 5
 console.log(findDay)
 
-//find number of occurence of "day" in a string
 
+
+//find number of occurence of "day" in a string
+let newday = 'tuesday'
+let quote = newday + "is Funday and today is Sunday"
 let count = 0
-let val = newQuote.indexOf("day")
+let val = quote.indexOf("day")
 while (val !== -1) {
     count++
-    val = newQuote.indexOf("day", val + 1)
+    val = quote.indexOf("day", val + 1)
 }
 console.log("Occurence of word day in a string = " + count)
